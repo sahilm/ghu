@@ -1,15 +1,16 @@
 package main
 
 import (
-	"golang.org/x/oauth2"
-	"os"
-	"context"
-	"github.com/google/go-github/github"
-	"log"
-	"fmt"
-	"regexp"
 	"bufio"
+	"context"
+	"fmt"
+	"log"
+	"os"
+	"regexp"
 	"strings"
+
+	"github.com/google/go-github/github"
+	"golang.org/x/oauth2"
 )
 
 func main() {
